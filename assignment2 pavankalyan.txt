@@ -1,0 +1,10 @@
+#Temperature and humidity sensing alarm
+import random
+while(True):
+    x=random.randint(10,100)
+    y=random.randint(10,100)
+    if(x>35 and y>60):
+        print("High Temperature and humidity of:",x,y,"%","Alarm is ON")
+    elif(x<35 and y<60):
+        print("High Temperature and humidity of:", x, y, "%", "Alarm is OFF")
+        break
